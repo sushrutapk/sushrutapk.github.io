@@ -1,0 +1,164 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Sep, 2020, 6:44:43 AM
+    Author     : Praveen
+*/
+                                              /*NAVIGATION BAR*/
+ .navbar-nav { 
+    margin-left: auto; 
+    font-family:Times New Roman;
+    font-style:inherit;
+    font-size:15px; 
+    margin-bottom: 0;
+    z-index: 0;
+    } 
+       a:hover{
+           background-color:window;
+       }
+.navbar-color{
+    background:#DCDCDC;
+    height:50px;
+        }
+                                                /*HOME*/
+.home_pic{
+    height: 600px;
+    margin: 0;
+    }
+    @media screen and (min-width: 480px){
+        .home_pic{
+            height:auto;
+        }
+    }
+    
+ 
+.imageContainer{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    }
+.textOnImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:5px 8px 5px 8px;
+    font-size: 30px;
+    font-family:'kite one';
+    }
+.imageContainer .textOnImage{
+    background: rgba(0, 0, 0, 0.5);
+    font-size:30px;
+    color: #fff;
+    z-index: 999;
+    font-family: Times New Roman Georgia;
+    }
+.heading{
+    text-align: center;
+    }
+.animatedAbout{
+    font-weight: 900;
+    font-size: 3.5em;
+    }
+.animatedAbout .letter {
+    display: inline-block;
+    line-height: 1em;
+    }
+.jumbotron{
+    background: transparent;
+    }
+.content{
+    background:#9575CD;
+    text-align:center;
+    color: white;
+    width: 100%;
+    font-size:25px;
+    font-family:'Kite One';
+    padding: 35px;
+    }
+.about_pic{   
+    height:350px;
+    width:500px;
+    text-align:center;
+    }
+.sub_heading{
+    text-align: center;
+    color:#273746;
+    font-size:25px;
+    padding: 35px;
+      }
+.port_logo{
+    height:200px;
+    width:200px;
+    text-align: center;
+      }
+.animatedProjects {
+    font-weight: 800;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.animatedProjects .word {
+    display: inline-block;
+    line-height: 1em;
+}
+.contact_content{
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%; 
+    font-size:22px;
+    font-family:'Kite One';
+      }
+.contactButton{
+    text-align: center;
+    }
+.animatedLetter {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+}
+
+.animatedLetter .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.animatedLetter .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+.projectInfo{
+    background:#09EFF2;
+    text-align:center;
+    color: white;
+    width: 100%;
+    font-size:22px;
+    font-family:'Kite One';
+    padding: 35px;
+}
+.projectInfo2{
+    background:#F2097B;
+    text-align:center;
+    color: white;
+    width: 100%;
+    font-size:22px;
+    font-family:'Kite One';
+    padding: 35px;
+}
+.page-footer{
+    background-color: window;
+    color: red;
+}
+      body {
+    padding-top: 50px; /* Whatever the height of your navbar is; the
+                             default is 50px */
+}
